@@ -12,9 +12,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about-us" element={<About />} />
-          <Route path="solar-power-generation-2" element={<SolarPowerGeneration />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/solar-power-generation-2" element={<SolarPowerGeneration />} />
+          <Route path="/contact" element={<Contact />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

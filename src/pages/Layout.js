@@ -49,31 +49,3 @@ function Layout() {
 }
 
 export default Layout;
-
-{/* <li>
-              <Link to="/solar-power-generation">Solar Power Generation</Link>
-            </li>
-            <li>
-              <Link to="/solar-waterheating">Solar - Waterheating</Link>
-            </li>
-            <li>
-              <Link to="/kwikot-gasmate-gas-geysers">Kwikot Gasmate Gas Geysers</Link>
-            </li>
-            <li>
-              <Link to="/price-list-kwikot">Price List-Kwikot</Link>
-            </li>
-            <li>
-              <Link to="/price-list-solar-power">Price List-Solar Power</Link>
-            </li>
-            <li>
-              <Link to="/specials">Specials</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="/references">References</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li> */}
