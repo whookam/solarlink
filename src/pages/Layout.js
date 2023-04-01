@@ -26,7 +26,7 @@ function Layout() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Item>
-              <Nav.Link eventKey="9" href="/contact">Contact</Nav.Link>
+              <Nav.Link eventKey="9" href="/contact">Contact 2</Nav.Link>
             </Nav.Item>    
           </Nav>
         </Container> 
