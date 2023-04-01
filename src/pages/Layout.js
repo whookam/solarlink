@@ -11,7 +11,7 @@ function Layout() {
         <Container>
           <Nav activeKey="1">
             <Nav.Item>
-              <Nav.Link eventKey="1" href="#/solarlink">Home</Nav.Link>
+              <Nav.Link eventKey="1" href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="2" href="#/about-us">About us</Nav.Link>
