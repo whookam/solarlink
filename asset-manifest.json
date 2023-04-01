@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/solarlink/static/css/main.34c14479.css",
-    "main.js": "/solarlink/static/js/main.f1e3b6eb.js",
-    "static/js/787.da043f20.chunk.js": "/solarlink/static/js/787.da043f20.chunk.js",
+    "main.js": "/solarlink/static/js/main.1ef70eac.js",
     "static/media/background.jpg": "/solarlink/static/media/background.aad8ffafe760a024c4af.jpg",
     "static/media/header.jpg": "/solarlink/static/media/header.ca92b4ca6f35fc585e17.jpg",
     "index.html": "/solarlink/index.html",
     "main.34c14479.css.map": "/solarlink/static/css/main.34c14479.css.map",
-    "main.f1e3b6eb.js.map": "/solarlink/static/js/main.f1e3b6eb.js.map",
-    "787.da043f20.chunk.js.map": "/solarlink/static/js/787.da043f20.chunk.js.map"
+    "main.1ef70eac.js.map": "/solarlink/static/js/main.1ef70eac.js.map"
   },
   "entrypoints": [
     "static/css/main.34c14479.css",
-    "static/js/main.f1e3b6eb.js"
+    "static/js/main.1ef70eac.js"
   ]
 }
