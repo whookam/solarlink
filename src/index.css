@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Open Sans", Helvetica, Arial, sans-serif,
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +31,7 @@ code {
 }
 
 article {
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 footer {
@@ -41,7 +41,66 @@ footer {
   padding: 20px;
 }
 
+footer h3 {
+  color: #f0f0f0;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  line-height: 2;
+}
+
 footer .column {
   display: inline-block;
   width: 33%;
+}
+
+.navbar {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.navbar a.nav-link {
+  font-size: 14px;
+}
+
+article {
+  border-bottom: 4px double #ededed;
+  padding-bottom: 1.7rem;
+  margin-bottom: 3.2rem;
+}
+
+article h1 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+article h2 {
+  font-size: 1.285rem;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+article h2.strong {
+  font-weight: bold;
+}
+
+article .centerContent {
+  text-align: center;
+}
+
+article .strong {
+  font-weight: bold;
+}
+
+article h2.red {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.image-gallery img {
+  padding: 10px;
 }

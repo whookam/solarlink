@@ -1,8 +1,8 @@
 function SolarPowerGeneration() {
   return (
     <article>
-        <h2>Solar Power Generation</h2>
-        <p>WE SUPPLY ON GRID ,OFF GRID AND HYBRID SOLAR PV SYSTEMS FROM SMALL TO LARGE , SINGLE AND THREE PHASE  A/C</p>
+        <h1>Solar Power Generation</h1>
+        <h2 className="strong">WE SUPPLY ON GRID ,OFF GRID AND HYBRID SOLAR PV SYSTEMS FROM SMALL TO LARGE , SINGLE AND THREE PHASE  A/C</h2>
     </article>
   );
 }

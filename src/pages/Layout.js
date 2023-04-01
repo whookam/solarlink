@@ -11,7 +11,7 @@ function Layout() {
         <Container>
           <Nav activeKey="1">
             <Nav.Item>
-              <Nav.Link eventKey="1" href="/">Home</Nav.Link>
+              <Nav.Link eventKey="1" href="/solarlink">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="2" href="#/about-us">About us</Nav.Link>
@@ -35,10 +35,12 @@ function Layout() {
       <footer>
         <div className="column">
             <h3>SOLARLINK</h3>
-            <p>P.O. Box 8053</p>
-            <p>Swakopmund</p>
-            <p>Namibia</p>
-            <p>Phone: +264 (81) 2720508</p>
+            <p>
+              P.O. Box 8053<br />
+              Swakopmund<br />
+              Namibia<br/>
+              Phone: +264 (81) 2720508
+            </p>
         </div>
         <div className="column">
             <p className="copyright">Copyright &copy; 2023</p>
