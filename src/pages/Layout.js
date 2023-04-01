@@ -24,6 +24,31 @@ function Layout() {
               <NavDropdown.Item eventKey="3.2" href="#/on-grid-off-grid-and-hybrid-solar-power-systems">
                 On Grid -Off Grid and Hybrid solar Power Systems
               </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.3" href="#/solar-pv-panels">
+                Solar PV Panels
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.4" href="#/solar-inverter">
+                Off Grid Inverter/Charger
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.4" href="#/grid-tie-inverters">
+                Grid tie Inverters
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.5" href="#/hybrid-inverters">
+                Hybrid Inverters
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.6" href="#/solar-pv-mountings">
+                Solar PV Mountings
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.7" href="#/solar-charge-controllers">
+                Solar PV Charge Controllers
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.8" href="#/solar-batteries">
+                Solar Batteries
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Solar - Waterheating" id="solarWaterDropdown">
+              <NavDropdown.Item eventKey="4.1" href="#/solar-waterheating">Solar - Waterheating</NavDropdown.Item>
+              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Item>
               <Nav.Link eventKey="9" href="#/contact">Contact</Nav.Link>

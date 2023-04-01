@@ -18,7 +18,7 @@ import canadianSolar from '../images/canadiansolar.jpg';
 function About() {
     return (
         <article>
-            <h2>About Us</h2>
+            <h1>About Us</h1>
             <p>We opened in Sept.2007 and have been supplying and installing solar water heaters (both solar geysers and heat pumps) and solar PV systems for over 9 years. We can offer both small and large systems.We are official Kwikot and Kwiksol suppliers and installers.We also supply and install ITS pool heat pumps.We supply  products from the following manufacturers.</p>
             <div className="image-gallery">
                 <img alt="solar technology" src={Sma} />

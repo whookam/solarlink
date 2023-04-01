@@ -3,7 +3,16 @@ import { Routes, Route, Link } from "react-router-dom";
 import Layout from "./pages/Layout";
 import About from "./pages/AboutUs";
 import Contact from "./pages/Contact";
+import Home from './pages/Home';
+import SolarPowerSystems from "./pages/SolarPowerSystems";
 import SolarPowerGeneration from './pages/SolarPowerGeneration';
+import SolarPVPanels from './pages/SolarPVPanels';
+import SolarInverter from "./pages/SolarInverter";
+import GridTieInverters from "./pages/GridTieInverters";
+import HybridInverters from "./pages/HybridInverters";
+import SolarPVMountings from "./pages/SolarPVMountings";
+import SolarChargeControllers from "./pages/SolarChargeControllers";
+import SolarBatteries from "./pages/SolarBatteries";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -14,6 +23,15 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/solar-power-generation-2" element={<SolarPowerGeneration />} />
+          <Route path="/on-grid-off-grid-and-hybrid-solar-power-systems" element={<SolarPowerSystems />} />
+          <Route path="/solar-pv-panels" element={<SolarPVPanels />} />
+          <Route path="/solar-inverter" element={<SolarInverter />} />
+          <Route path="/grid-tie-inverters" element={<GridTieInverters />} />
+          <Route path="/hybrid-inverters" element={<HybridInverters />} />
+          <Route path="/solar-pv-mountings" element={<SolarPVMountings />} />
+          <Route path="/solar-charge-controllers" element={<SolarChargeControllers />} />
+          <Route path="/solar-batteries" element={<SolarBatteries />} />
+
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
@@ -23,28 +41,13 @@ export default function App() {
   );
 }
 
-function Home() {
-  return (
-    <article>
-      <h1>Harness the enerfy of the sun for your consumption</h1>
-      <p>We offer a wide range of solar products at unbeatable prices. Check out all products and contact us – We do installation of all our products.</p>
-      <p>You’ll find details info of our Solar-Hot-Water, Solar-Electric and Pool heating products.</p>
-      <p>Get a quote now and be energy independent</p>
-      <h2 class="offer">WE NOW OFFER A LEASE OPTION ON SOLAR PV INSTALLATIONS. IF YOUR ELECTRICITY CONSUMPTION IS MORE 5,000 UNITS PER MONTH, CALL US -YOU WILL SAVE</h2>
-      <p>PV INSTALLERS  CONTACT US @    chris@solar-namibia.com</p>
-      <p>for great wholesale prices on all your requirements.</p>
-      <p>incl. panels and  mountings,  inverters (on and offgrid ) batteries, solar cable, connectors  charge controllers and LED light bulbs and tubes. We can beat any price on Victron Energy products</p>
-    </article>
-  );
-}
-
 function NoMatch() {
   return (
-    <div>
+    <article>
       <h2>Nothing to see here!</h2>
       <p>
-        <Link to="/">Go to the home page</Link>
+        <Link to="/solarlink">Go to the home page</Link>
       </p>
-    </div>
+    </article>
   );
 }
