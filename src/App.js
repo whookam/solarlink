@@ -13,6 +13,18 @@ import HybridInverters from "./pages/HybridInverters";
 import SolarPVMountings from "./pages/SolarPVMountings";
 import SolarChargeControllers from "./pages/SolarChargeControllers";
 import SolarBatteries from "./pages/SolarBatteries";
+import SolarWaterheating from "./pages/SolarWaterheating";
+import PoolHeatpumps from "./pages/PoolHeatpumps";
+import HowHeatPipesWorks from "./pages/HowHeatPipesWorks";
+import EvacuatedTubeSystem from "./pages/EvacuatedTubeSystems";
+import FlatPlate from "./pages/FlatPlate";
+import BatchSolarHeater from "./pages/BatchSolarHeater";
+import GasmateGasGeysers from "./pages/GasmateGasGeysers";
+import PriceListKwikot from "./pages/PriceListKwikot";
+import SolarPVPowerPriceList from './pages/SolarPVPowerPriceList';
+import Specials from "./pages/Specials";
+import References from './pages/References';
+import Projects from "./pages/Projects";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -31,6 +43,18 @@ export default function App() {
           <Route path="/solar-pv-mountings" element={<SolarPVMountings />} />
           <Route path="/solar-charge-controllers" element={<SolarChargeControllers />} />
           <Route path="/solar-batteries" element={<SolarBatteries />} />
+          <Route path="/solar-waterheating" element={<SolarWaterheating />} />
+          <Route path="/heatpumps" element={<PoolHeatpumps />} />
+          <Route path="/how-heat-pipes-works" element={<HowHeatPipesWorks />} />
+          <Route path="/evacuated-tube-systems" element={<EvacuatedTubeSystem />} />
+          <Route path="/flat-plate" element={<FlatPlate />} />
+          <Route path="/batch-solar-heater" element={<BatchSolarHeater />} />
+          <Route path="/gasmate-gas-geysers" element={<GasmateGasGeysers />} />
+          <Route path="/price-list-february-2017" element={<PriceListKwikot />} />
+          <Route path="/solar-pv-power-price-list" element={<SolarPVPowerPriceList />} />
+          <Route path="/specials" element={<Specials />} />
+          <Route path="/references" element={<References />} />
+          <Route path="/projects" element={<Projects />} />
 
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoMatch />} />

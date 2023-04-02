@@ -49,9 +49,32 @@ function Layout() {
             <NavDropdown title="Solar - Waterheating" id="solarWaterDropdown">
               <NavDropdown.Item eventKey="4.1" href="#/solar-waterheating">Solar - Waterheating</NavDropdown.Item>
               <NavDropdown.Divider />
+              <NavDropdown.Item eventKey="4.2" href="#/heatpumps">Pool Heatpumps</NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.3" href="#/how-heat-pipes-works">How Heat Pipes Works</NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.4" href="#/evacuated-tube-systems">Evacuated Tube Systems</NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.5" href="#/flat-plate">Flat Place Systems</NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.6" href="#/batch-solar-heater">SOLO Batch Solar heater</NavDropdown.Item>
             </NavDropdown>
             <Nav.Item>
+              <Nav.Link eventKey="5" href="#/gasmate-gas-geysers">Kwikot Gasmate Gas Geysers</Nav.Link>
+            </Nav.Item>    
+            <Nav.Item>
+              <Nav.Link eventKey="6" href="#/price-list-february-2017">Price List-Kwikot</Nav.Link>
+            </Nav.Item>    
+            <Nav.Item>
+              <Nav.Link eventKey="7" href="#/solar-pv-power-price-list">Solar PV Power Price List</Nav.Link>
+            </Nav.Item>    
+            <Nav.Item>
+              <Nav.Link eventKey="8" href="#/specials">Specials</Nav.Link>
+            </Nav.Item>    
+            <Nav.Item>
               <Nav.Link eventKey="9" href="#/contact">Contact</Nav.Link>
+            </Nav.Item>    
+            <Nav.Item>
+              <Nav.Link eventKey="10" href="#/references">References</Nav.Link>
+            </Nav.Item>    
+            <Nav.Item>
+              <Nav.Link eventKey="11" href="#/projects">Projects</Nav.Link>
             </Nav.Item>    
           </Nav>
         </Container> 
